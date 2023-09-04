@@ -26,9 +26,11 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/1Stop.png";
 import tesla from "./company/tesla.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import carrent from "./inventory.png";
+import jobit from "./chatbot.jpg";
+import tripguide from "./Delhi_Metro.png";
+import encrypt from "./encrypt.png";
+import opencv from "./opencv.png"
 
 export {
   logo,
@@ -59,4 +61,6 @@ export {
   carrent,
   jobit,
   tripguide,
+  encrypt,
+  opencv,
 };

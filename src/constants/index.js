@@ -23,6 +23,8 @@ import {
     jobit,
     tripguide,
     threejs,
+    encrypt,
+    opencv
   } from "../assets";
   
   export const navLinks = [
@@ -162,30 +164,38 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Inventory management system using ML for SME",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Web-based platform that allows users to manage their inventory and predict future profit using amchine learning models",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "Python",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "Flask",
           color: "pink-text-gradient",
+        },
+        {
+          name: "XGBoost",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Scikitlearn",
+          color: "green-text-gradient",
         },
       ],
       image: carrent,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/sid99i/Inventory-management-system-using-ML-for-SME",
     },
     {
-      name: "Job IT",
+      name: "Real-time Emotion Detection and Chatbot",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "This project combines computer vision and natural language processing (NLP) techniques to detect emotions from webcam video streams and engage in interactive text-based conversations.",
       tags: [
         {
           name: "react",
@@ -199,30 +209,76 @@ import {
           name: "scss",
           color: "pink-text-gradient",
         },
-      ],
-      image: jobit,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
         {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
+          name: "Python",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "OpenAI",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "OpenCV",
           color: "pink-text-gradient",
         },
       ],
+      image: jobit,
+      source_code_link: "https://github.com/sid99i/Emotion-detection-webapp-with-open-ai",
+    },
+    {
+      name: "DELHI METRO Shortest Path Finder",
+      description:
+        "Given a network of stations and their connections, this program calculates the shortest path and distance between two selected stations using weighted edges that represent the travel time between stations.",
+      tags: [
+        {
+          name: "Python",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Dijkstra's algorithm",
+          color: "green-text-gradient",
+        },
+      ],
       image: tripguide,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/sid99i/Delhi-metro-shortest-path-finder",
+    },
+    {
+      name: "Image Encryption and Decryption with tkinter",
+      description:
+        " Python code for image encryption and decryption. This is a simple project to demonstrates the process of encrypting and decrypting images using a user-provided key.",
+      tags: [
+        {
+          name: "Python",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Tkinter",
+          color: "green-text-gradient",
+        },
+      ],
+      image: encrypt,
+      source_code_link: "https://github.com/sid99i/Visual-cryptography-for-images",
+    },
+    {
+      name: "Real-time Hand Gesture Volume Control",
+      description:
+        "A real-time hand gesture-based volume control system. This project allows you to control the volume of your computer's audio output by using hand gestures captured by your webcam.",
+      tags: [
+        {
+          name: "Python",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Tkinter",
+          color: "green-text-gradient",
+        },
+        {
+          name: "OpenCV",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: opencv,
+      source_code_link: "https://github.com/sid99i/Volume-control-using-hand-gestures",
     },
   ];
   
