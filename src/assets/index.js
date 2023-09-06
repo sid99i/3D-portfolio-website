@@ -31,6 +31,8 @@ import jobit from "./chatbot.jpg";
 import tripguide from "./Delhi_Metro.png";
 import encrypt from "./encrypt.png";
 import opencv from "./opencv.png"
+import portf from "./portfolio.png"
+import parking from "./parking.jpeg"
 
 export {
   logo,
@@ -63,4 +65,6 @@ export {
   tripguide,
   encrypt,
   opencv,
+  portf,
+  parking,
 };

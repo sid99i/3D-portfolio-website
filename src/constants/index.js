@@ -24,7 +24,9 @@ import {
     tripguide,
     threejs,
     encrypt,
-    opencv
+    opencv,
+    portf,
+    parking,
   } from "../assets";
   
   export const navLinks = [
@@ -224,6 +226,52 @@ import {
       ],
       image: jobit,
       source_code_link: "https://github.com/sid99i/Emotion-detection-webapp-with-open-ai",
+    },
+    {
+      name: "Enhanced Parking System",
+      description:
+        "A real-time system which tells you the available spaces in parking area using machine learning",
+      tags: [
+        {
+          name: "Python",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Android studios",
+          color: "green-text-gradient",
+        },
+        {
+          name: "OpenCV",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: parking,
+      source_code_link: "https://github.com/sid99i/EnhanceParking",
+    },
+    {
+      name: "3D Portfolio website ",
+      description:
+        "A portfolio website using 3D graphics and animations. ",
+      tags: [
+        {
+          name: "Javascript",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Threejs",
+          color: "green-text-gradient",
+        },
+        {
+          name: "TailwindCSS",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "React three Fiber",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: portf,
+      source_code_link: "https://github.com/sid99i/3D-portfolio-website",
     },
     {
       name: "DELHI METRO Shortest Path Finder",
